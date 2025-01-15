@@ -4,23 +4,15 @@ using namespace std;
 
 int main()
 {
-    int b1;
-    int b2;
+    cout << "Hello world!" << endl;
+    char a;
+    char b;
     int r;
-    printf("Unesi prvi broj: ");
-    cin>>b1;
-    printf("Unesi drugi broj: ");
-    cin>>b2;
-    r=b1+b2;
-    printf("%i + %i = %i, ", b1 ,b2, r);
-    r=b1-b2;
-    printf("%i - %i = %i, ", b1 ,b2, r);
-    r=b1*b2;
-    printf("%i * %i = %i, ", b1 ,b2, r);
-    r=b1/b2;
-    printf("%i / %i = %i, ", b1 ,b2, r);
-
-
-
+    printf("Unesi jedno slovo: ");
+    cin>>a;
+    /*printf("Unesi jedno slovo: ");
+    cin>>b;*/
+    r=a;
+    printf("%c = %i", a, r);
     return 0;
 }
