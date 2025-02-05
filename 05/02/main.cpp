@@ -3,13 +3,11 @@
 using namespace std;
 
 int main(){
-    char a, b;
-    cin>>a;
+    int b;
     cin>>b;
-    if(a<b)
-        cout<<"Zapisani su abecednim redom";
+    if (b%2==0)
+        cout<<"Paran";
     else
-        cout<<"Nisu zapisani abecednim redom";
-
+        cout<<"Neparan";
     return 0;
 }
