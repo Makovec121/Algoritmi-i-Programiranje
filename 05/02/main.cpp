@@ -2,13 +2,14 @@
 
 using namespace std;
 
-int main()
-{
-    float a;
+int main(){
+    char a, b;
     cin>>a;
-    float b;
-    b=a*0.25+a;
-        cout<<"Cijena s pdv-om je: "<<b;
+    cin>>b;
+    if(a<b)
+        cout<<"Zapisani su abecednim redom";
+    else
+        cout<<"Nisu zapisani abecednim redom";
 
     return 0;
 }
