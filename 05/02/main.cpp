@@ -2,12 +2,13 @@
 
 using namespace std;
 
-int main(){
-    int b;
-    cin>>b;
-    if (b%2==0)
-        cout<<"Paran";
-    else
-        cout<<"Neparan";
+int main()
+{
+   int broj;
+    cin>>broj;
+        if (broj>0)
+            cout<<"Pozitivan";
+        else
+            cout<<"Negativan";
     return 0;
 }
